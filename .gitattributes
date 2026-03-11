@@ -1,0 +1,6 @@
+# Normalize text files to LF to avoid CRLF warnings
+* text=auto eol=lf
+
+# Keep Windows scripts CRLF if needed
+*.bat text eol=crlf
+*.cmd text eol=crlf

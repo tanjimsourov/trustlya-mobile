@@ -1,0 +1,25 @@
+name: trustlya
+description: A production-grade digital asset infrastructure app covering tokenization, post-trade operations, wallet management, and carbon marketplace workflows.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.3
+  get_it: ^7.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/branding/
