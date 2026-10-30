@@ -126,8 +126,8 @@ class _OnboardingPageState extends State<OnboardingPage> {
                   SizedBox(height: compactHero ? AppSpacing.sm : AppSpacing.md),
                   Text(
                     compactHero
-                        ? 'European digital asset infrastructure for issuance, post-trade, wallet, and carbon workflows.'
-                        : 'European digital asset infrastructure for issuance, post-trade operations, wallet control, and carbon workflows.',
+                        ? 'Global digital asset infrastructure for issuance, post-trade, wallet, and carbon workflows.'
+                        : 'Global digital asset infrastructure for issuance, post-trade operations, wallet control, and carbon workflows.',
                     maxLines: compactHero ? 3 : null,
                     overflow: compactHero
                         ? TextOverflow.ellipsis

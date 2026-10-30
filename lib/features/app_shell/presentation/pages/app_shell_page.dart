@@ -93,7 +93,7 @@ class _AppShellPageState extends State<AppShellPage> {
         const BrandLockup(height: 36, useAsset: true),
         const SizedBox(height: AppSpacing.xs),
         Text(
-          'European digital asset infrastructure',
+          'Global digital asset infrastructure',
           style:
               AppTypography.caption.copyWith(color: AppColorsDS.textSecondary),
         ),
